@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ResQLink Responder Dashboard</title>
+<style>body{font-family:system-ui,sans-serif;margin:0;background:#f4f7fc;color:#1f2937}header{background:#1E2761;color:#fff;padding:14px 20px;display:flex;justify-content:space-between}
+main{padding:20px;max-width:900px;margin:auto}table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden}
+th{background:#1E2761;color:#fff;text-align:left;padding:10px;font-size:13px}td{padding:10px;border-bottom:1px solid #e5e7eb;font-size:14px}
+.n{font-size:34px;font-weight:800;color:#0070C0}a{color:#0070C0}</style></head><body>
+<header><b>ResQLink: Responder Dashboard</b><span id="t" style="font-size:12px"></span></header>
+<main><div><span class="n" id="count">0</span> <span>SOS received</span></div><br>
+<table><thead><tr><th>Time</th><th>Type</th><th>People</th><th>Note</th><th>Location</th><th>Hops</th></tr></thead><tbody id="rows"></tbody></table></main>
+<script>
+async function tick(){try{const r=await fetch('/sos');const d=await r.json();document.getElementById('count').textContent=d.length;
+const tb=document.getElementById('rows');tb.replaceChildren();
+d.forEach(s=>{const tr=document.createElement('tr');
+const cells=[new Date(s.ts).toLocaleTimeString(),s.type,s.people,s.note||'-',null,(s.hops||[]).length];
+cells.forEach((c,i)=>{const td=document.createElement('td');
+if(i===4){if(s.lat!=null){const a=document.createElement('a');a.href='https://www.openstreetmap.org/?mlat='+s.lat+'&mlon='+s.lng+'#map=16/'+s.lat+'/'+s.lng;a.target='_blank';a.textContent=s.lat.toFixed(4)+', '+s.lng.toFixed(4);td.append(a);}else td.textContent='unknown';}
+else td.textContent=c;tr.append(td);});tb.append(tr);});
+document.getElementById('t').textContent='updated '+new Date().toLocaleTimeString();}catch(e){}}
+tick();setInterval(tick,3000);
+</script></body></html>

@@ -1,0 +1,142 @@
+[
+ {
+  "id": "bleeding",
+  "title": "Severe bleeding",
+  "keywords": "bleeding blood cut wound bleed hemorrhage injury",
+  "steps": [
+   "Call 112 or ask someone nearby to call.",
+   "Press firmly and directly on the wound with a clean cloth or your hand.",
+   "Do not remove soaked cloth; add more layers on top and keep pressing.",
+   "If no fracture is suspected, raise the injured limb above the heart.",
+   "Keep the person lying down and warm until help arrives."
+  ]
+ },
+ {
+  "id": "burns",
+  "title": "Burns",
+  "keywords": "burn burns burnt scald fire hot water flame",
+  "steps": [
+   "Cool the burn under cool running water for 20 minutes.",
+   "Remove rings or tight items near the burn unless stuck to the skin.",
+   "Cover loosely with a clean, non-fluffy cover such as cling film.",
+   "Do not use ice, butter, toothpaste or burst blisters.",
+   "Get medical help for large burns, face, hands, chemical or electrical burns."
+  ]
+ },
+ {
+  "id": "cpr",
+  "title": "Person not breathing (CPR)",
+  "keywords": "cpr unconscious breathing unresponsive collapsed heart attack cardiac arrest not breathing",
+  "steps": [
+   "Check if the person responds and is breathing normally.",
+   "Call 112 and ask for an AED if one is nearby.",
+   "Push hard and fast in the centre of the chest, about 100 to 120 per minute, 5 to 6 cm deep.",
+   "Let the chest rise fully between pushes. Do not stop until help or an AED arrives.",
+   "If untrained, hands-only CPR is fine."
+  ]
+ },
+ {
+  "id": "choking",
+  "title": "Choking",
+  "keywords": "choking choke chokes stuck throat swallowed cannot breathe cough",
+  "steps": [
+   "Encourage the person to keep coughing.",
+   "If they cannot cough or speak, give 5 firm back blows between the shoulder blades.",
+   "Then give 5 abdominal thrusts (stand behind, fist above the navel, pull in and up).",
+   "Alternate 5 back blows and 5 thrusts.",
+   "If the person becomes unresponsive, call 112 and start CPR."
+  ]
+ },
+ {
+  "id": "fracture",
+  "title": "Broken bone or fracture",
+  "keywords": "fracture broken bone break sprain twisted swelling leg arm limb",
+  "steps": [
+   "Do not move the person unless there is immediate danger.",
+   "Keep the injured part still; support it with padding or a splint.",
+   "Do not try to straighten the bone.",
+   "Control any bleeding with gentle pressure around the wound.",
+   "Get medical help; keep the person warm and calm."
+  ]
+ },
+ {
+  "id": "drowning",
+  "title": "Drowning and flood rescue",
+  "keywords": "drowning drown water flood river swept rescue swimming",
+  "steps": [
+   "Do not enter moving water. Throw a rope, float or bottle to the person.",
+   "Call 112 and get them out safely.",
+   "Check breathing. If not breathing, start CPR with rescue breaths if trained.",
+   "Keep the person warm and on their side if breathing.",
+   "Take them to a hospital even if they seem fine."
+  ]
+ },
+ {
+  "id": "heatstroke",
+  "title": "Heatstroke",
+  "keywords": "heat heatstroke sun hot dizzy faint temperature dehydration",
+  "steps": [
+   "Move the person to shade or a cool place.",
+   "Cool the body with wet cloths, water and fanning, especially neck, armpits and groin.",
+   "Give small sips of water only if fully alert.",
+   "Call 112 if the person is confused, vomiting or unconscious."
+  ]
+ },
+ {
+  "id": "snakebite",
+  "title": "Snake bite",
+  "keywords": "snake snakebite bite bitten venom",
+  "steps": [
+   "Keep the person calm and still.",
+   "Immobilise the bitten limb and keep it at or below heart level.",
+   "Remove rings and tight items near the bite.",
+   "Do not cut, suck, apply ice or tie a tight tourniquet.",
+   "Go to a hospital immediately for anti-venom."
+  ]
+ },
+ {
+  "id": "earthquake",
+  "title": "Earthquake safety",
+  "keywords": "earthquake quake tremor shaking building collapse aftershock",
+  "steps": [
+   "Drop, Cover and Hold On under a sturdy table. Stay away from windows.",
+   "If outdoors, move away from buildings, wires and trees.",
+   "After shaking stops, check for injuries and expect aftershocks.",
+   "Avoid damaged buildings and do not use matches if you smell gas."
+  ]
+ },
+ {
+  "id": "flood",
+  "title": "Flood safety",
+  "keywords": "flood flooding rain water rising landslide cyclone storm evacuate",
+  "steps": [
+   "Move to higher ground immediately.",
+   "Do not walk or drive through floodwater.",
+   "Switch off electricity at the mains only if it is safe to do so.",
+   "Keep away from fallen power lines.",
+   "Boil or treat drinking water before use."
+  ]
+ },
+ {
+  "id": "shock",
+  "title": "Electric shock",
+  "keywords": "electric shock electrocution current wire power live",
+  "steps": [
+   "Do not touch the person until the power is off.",
+   "Switch off at the mains, or push the source away with a dry wooden or plastic object.",
+   "Call 112. Check breathing and start CPR if not breathing.",
+   "Treat burns by cooling with running water."
+  ]
+ },
+ {
+  "id": "faint",
+  "title": "Fainting or unconscious but breathing",
+  "keywords": "faint fainted unconscious passed out unresponsive recovery position",
+  "steps": [
+   "Check that the person is breathing.",
+   "If breathing, place them on their side (recovery position).",
+   "Loosen tight clothing and do not give food or drink.",
+   "Call 112 if they do not wake up within a minute."
+  ]
+ }
+]

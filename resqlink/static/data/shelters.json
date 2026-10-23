@@ -1,0 +1,44 @@
+[
+ {
+  "name": "Demo Relief Camp A",
+  "type": "shelter",
+  "lat": 19.9975,
+  "lng": 73.7898,
+  "note": "Replace with real data"
+ },
+ {
+  "name": "Demo Community Hall",
+  "type": "shelter",
+  "lat": 20.011,
+  "lng": 73.774,
+  "note": "Replace with real data"
+ },
+ {
+  "name": "Demo District Hospital",
+  "type": "hospital",
+  "lat": 19.99,
+  "lng": 73.785,
+  "note": "Replace with real data"
+ },
+ {
+  "name": "Demo School Shelter",
+  "type": "shelter",
+  "lat": 20.005,
+  "lng": 73.8,
+  "note": "Replace with real data"
+ },
+ {
+  "name": "Demo Primary Health Centre",
+  "type": "hospital",
+  "lat": 19.98,
+  "lng": 73.77,
+  "note": "Replace with real data"
+ },
+ {
+  "name": "Demo High Ground Camp",
+  "type": "shelter",
+  "lat": 20.02,
+  "lng": 73.795,
+  "note": "Replace with real data"
+ }
+]

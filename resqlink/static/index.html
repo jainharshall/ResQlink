@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1E2761"><link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icon-192.png"><title>ResQLink</title><link rel="stylesheet" href="/style.css"></head>
+<body><div id="app">
+<header><div><h1>ResQLink</h1><small>Emergency help, even offline</small></div><span id="pill">ONLINE</span></header>
+<main>
+<section id="ask" class="on">
+ <div class="row"><input id="q" placeholder="e.g. someone is bleeding badly" autocomplete="off"><button class="p" id="go">Ask</button></div>
+ <div class="chips" id="quick"></div>
+ <div id="answer"></div>
+ <div class="warn">First-aid guidance only. Not a substitute for medical care. Call 112 in an emergency.</div>
+</section>
+<section id="shelters"><button class="p" id="loc">Find nearest shelters</button><div id="radar"></div><div id="slist"></div></section>
+<section id="sos">
+ <div class="card">
+  <h3>Shake to alert your contacts</h3>
+  <p class="muted">A shake asks you to confirm before preparing messages. Keep ResQLink open for live location updates. The SMS app will ask you to send each message.</p>
+  <button class="p" id="shakeToggle" type="button">Enable shake alerts</button>
+  <div id="shakeStatus" class="muted" role="status"></div>
+ </div>
+ <div class="card">
+  <h3>Trusted contacts (up to 5)</h3>
+  <div id="contacts"></div>
+  <div class="row contact-actions"><button class="chip" id="addContact" type="button">Add contact</button><button class="p" id="saveContacts" type="button">Save contacts</button></div>
+  <div id="contactStatus" class="muted" role="status"></div>
+ </div>
+ <div class="card alert-confirm" id="shakeConfirm" hidden>
+  <h3>Shake detected</h3>
+  <p class="muted">Start a live location link and prepare SMS alerts for your saved contacts?</p>
+  <div class="row"><button class="p sos" id="confirmShake" type="button">Prepare alert</button><button class="chip" id="cancelShake" type="button">Cancel</button></div>
+ </div>
+ <div class="card" id="liveStatus" hidden></div>
+ <div id="alertLinks"></div>
+ <label>Emergency type</label><select id="stype"><option>Medical</option><option>Trapped</option><option>Flood</option><option>Fire</option><option>Need food or water</option><option>Other</option></select>
+ <label>People needing help</label><input id="people" type="number" min="1" value="1">
+ <label>Note (optional)</label><textarea id="note" rows="2"></textarea>
+ <button class="p sos" id="sendsos">SEND SOS</button>
+ <p class="muted" id="sosinfo">Saved on your phone first, then uploaded automatically when any signal returns.</p>
+ <div id="soslist"></div>
+</section>
+</main>
+<nav><button data-t="ask" class="on">Ask</button><button data-t="shelters">Shelters</button><button data-t="sos">SOS</button></nav>
+</div><script src="/app.js"></script></body></html>
